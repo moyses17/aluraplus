@@ -1,58 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
-    <title>Alura Plus</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura MIDI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+    <link rel="preconnect" href="https://fonts.gstatic.com&quot; crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap&quot; rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
 </head>
-
 <body>
-    <section class="principal container">
-        <div class="container__caixa">
-            <h1 class="container__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço
-                único.</h1>
-            <img src="download.jpeg" alt="O combo+ é a junção do alura+ e o alura língua" class="images.jpeg">
-            <a href="www.alura.com.br" class="container__botao">Assine por 12x de R$ 120,00*</a>
-            <a href="www.alura.com.br" class="container__botao botao_secundario">Assinar somente o Alura+</a>
-            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
-        </div>
+
+    <h1>Alura Midi</h1>
+
+        <button class="tecla tecla_toim">Toim</button>
+
+        <button class="tecla tecla_psh">Psh</button>
+        <button class="tecla tecla_tic">Tic</button>
+        <button class="tecla tecla_tom">Tom</button>
     </section>
 
-    <section class="container secundario">
-        <img src="img/Plataformas.png" alt="Um monitor e um celular com a alura plus aberta" class="secundario__imagem">
-        <div class="container__descricao">
-            <h2 class="descricao__titulo">Assista do seu jeito</h2>
-            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros
-                aparelhos. Nossa seleção de cursos não para de crescer.</p>
-        </div>
-    </section>
-
-    <section class="container secundario">
-        <div class="container__descricao">
-            <p class="descricao__texto">
-                Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
-                tecnologia e aprender inglês ou espanhol, onde e como quiser.
-            </p>
-            <a href="www.alura.com.br" class="container__botao secundario__botao" container>Assine o Combo+</a>
-        </div>
-        <img src="img/Telas.png" alt="Tela do alura+ e alura língua" class="secundario__imagem">
-    </section>
-
-    <section class="container secundario">
-        <img src="img/Notebook.png" alt="Notebook com a página do curso HTML5 e CSS3 da Alura aberta"
-            class="secundario__imagem">
-        <div class="container__descricao">
-            <h2 class="descricao__titulo">Baixe seus cursos</h2>
-            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
-                você, até mesmo sem internet.</p>
-        </div>
-    </section>
+    <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
+    <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
+    <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+    <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+    <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
 
 </body>
-
 </html>
