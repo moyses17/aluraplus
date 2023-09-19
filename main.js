@@ -1,4 +1,3 @@
-// Pom ------------------------------------
 function tocaSomPom () {
 document.querySelector(idElementAudio).play();
 }
