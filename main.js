@@ -1,5 +1,7 @@
 function tocaSomPom (selectorAudio) {
-document.querySelector(idElementAudio).play();
+const elemento = document.querySelector(seletorAudio);
+ 
+ document.querySelector(idElementAudio).play();
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
